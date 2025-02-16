@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    --text: #3a405a;
+    --background: #f9dec9;
+    --listBackground: #fff;
+    --inactive: #e0e0e0;
+    --border: none;
+    --champagnePink: #f9dec9;
+    --melon: #e9afa3;
+    --delftBlue: #3a405a;
+    --lightGrey: #e0e0e0;
+    --grey: #8e8e8e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text: #fff;
+      --background: #3a405a;
+      --listBackground: #fff;
+      --inactive: #8e8e8e;
+      --border: #e9afa3;
+    }
+  }
+}
