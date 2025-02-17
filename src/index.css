@@ -1,15 +1,15 @@
 @import 'tailwindcss';
 
-* {
-  font-family: 'Pretendard', sans-serif;
-  color: var(--text);
-}
-
-.dark {
-  color: var(--white);
-}
-
 @layer base {
+  * {
+    font-family: 'Pretendard', sans-serif;
+    color: var(--text);
+  }
+
+  .dark {
+    color: var(--white);
+  }
+
   :root {
     --text: #3a405a;
     --background: #f9dec9;

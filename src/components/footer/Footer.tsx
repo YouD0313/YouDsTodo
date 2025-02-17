@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="w-full h-9 flex items-center">
         <input
           type="text"
-          className="w-[85%] h-full bg-(--white)  pl-3 rounded-l-2xl"
+          className="w-[85%] h-full bg-(--white)  pl-3 rounded-l-2xl outline-0"
         />
         <button className="w-[15%] h-full bg-(--melon) rounded-r-2xl cursor-pointer">
           <span className="text-xl">Add</span>
