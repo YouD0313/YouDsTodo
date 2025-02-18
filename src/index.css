@@ -1,13 +1,11 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 @layer base {
   * {
     font-family: 'Pretendard', sans-serif;
     color: var(--text);
-  }
-
-  .dark {
-    color: var(--white);
   }
 
   :root {
@@ -45,6 +43,18 @@
 
   .filter.dark {
     border: 1px solid var(--melon);
+  }
+
+  .menu-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  .menu-list.dark {
+    color: var(--white);
   }
 }
 
