@@ -14,6 +14,7 @@
     --list-background: #fff;
     --inactive: #e0e0e0;
     --border: transparent;
+    --border-b: #3a405a;
     --accent: #e9afa3;
     --champagne-pink: #f9dec9;
     --melon: #e9afa3;
@@ -30,6 +31,7 @@
       --list-background: #3a405a;
       --inactive: #8e8e8e;
       --border: #e9afa3;
+      --border-b: #e9afa3;
       --accent: #3a405a;
     }
   }

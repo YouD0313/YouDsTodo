@@ -58,7 +58,7 @@ function App() {
   }, [lists]);
 
   return (
-    <main className={`h-screen relative min-w-80 overflow-hidden `}>
+    <main className={`h-screen relative min-w-80 overflow-hidden`}>
       {Boolean(menuToggle) && (
         <DrawerMenu
           onToggle={(isOpen: boolean) => handleToggle(isOpen)}

@@ -16,8 +16,8 @@ export default function ListBox({ lists, onUpdate, onDelete }: ListBoxProps) {
   const todos = filtering(lists, filter);
 
   return (
-    <section className='border-t-1 border-b-(--text) dark:border-t-(--melon)'>
-      <div className='h-[calc(100vh-18vh)] max-h-[calc(100vh-18vh)] bg-(--champagne-pink) px-(--padding-x) pt-3.5 dark:bg-(--delft-blue)'>
+    <section className='border-t-1 border-b-(--border-b) dark:border-t-(--melon)'>
+      <div className='h-[calc(100vh-18vh)] max-h-[calc(100vh-18vh)] bg-(--background) px-(--padding-x) pt-3.5 dark:bg-(--delft-blue)'>
         <div className='h-22.5'>
           <span className='text-2xl dark:text-(--white)'>List</span>
           <ul className='grid grid-cols-3 text-center text-2xl bg-(--melon) rounded-t-2xl mt-2 cursor-pointer'>

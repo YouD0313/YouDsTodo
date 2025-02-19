@@ -30,7 +30,7 @@ export default function DrawerMenu({
     <nav className={`w-full absolute z-10 flex justify-end`}>
       <div
         ref={ref}
-        className={`w-[80%] h-screen bg-(--white) z-10 dark:bg-(--delft-blue)`}
+        className={`w-[80%] h-screen bg-(--list-background) z-10 dark:bg-(--delft-blue)`}
       >
         <div className='h-[8vh] p-4 flex justify-end items-center'>
           <XMarkIcon

@@ -27,7 +27,7 @@ export default function Footer({ onAdd }: FooterProps) {
       >
         <input
           type='text'
-          className='w-[85%] h-full bg-(--white)  pl-3 rounded-l-2xl outline-0'
+          className='w-[85%] h-full bg-(--white)  pl-3 rounded-l-2xl outline-0 text-(--delft-blue)'
           value={todo}
           onChange={handleChangeText}
         />
